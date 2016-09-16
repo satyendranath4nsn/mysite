@@ -4,12 +4,12 @@ app = Flask(__name__)
 @app.route('/')
 def index():
   return 'Hello Welcome To My Site'
-def jpeg_res(love-1089666.jpg):
+def jpeg_res(love-1089666):
    """"This function prints the resolution
    of the jpeg image file passed into it"""
 
    # open image for reading in binary mode
-   with open(filename,'rb') as img_file:
+   with open(love-1089666,'rb') as img_file:
 
        # height of image (in 2 bytes) is at 164th position
        img_file.seek(163)
